@@ -29,7 +29,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <img 
-                src="public/assets/logos/djkalu-logo.png" 
+                src="assets/logos/djkalu-logo.png" 
                 alt="DJ Kalz" 
                 className="h-16 w-auto"
                 style={{ filter: 'drop-shadow(0 0 10px rgba(255, 0, 128, 0.6))' }}

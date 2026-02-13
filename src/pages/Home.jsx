@@ -22,14 +22,14 @@ const Home = () => {
   ];
 
   const moments = [
-   'public/assets/images/dj-photo.png',
-   'public/assets/images/dj-photo.png',
-   'public/assets/images/dj-photo.png',
-   'public/assets/images/dj-photo.png',
-   'public/assets/images/dj-photo.png',
-   'public/assets/images/dj-photo.png',
-   'public/assets/images/dj-photo.png',
-   'public/assets/images/dj-photo.png'
+   'assets/images/dj-photo.png',
+   'assets/images/dj-photo.png',
+   'assets/images/dj-photo.png',
+   'assets/images/dj-photo.png',
+   'assets/images/dj-photo.png',
+   'assets/images/dj-photo.png',
+   'assets/images/dj-photo.png',
+   'assets/images/dj-photo.png'
   ]
 
   return (
@@ -59,7 +59,7 @@ const Home = () => {
                 className="mb-6"
               >
                 <img 
-                  src="public/assets/logos/djkalu-logo.png" 
+                  src="assets/logos/djkalu-logo.png" 
                   alt="DJ Kalz" 
                   className="h-52 w-auto mx-auto lg:mx-0"
                 />
@@ -111,7 +111,7 @@ const Home = () => {
 
                     
                     <img 
-                      src="public/assets/images/dj-photo.png" 
+                      src="assets/images/dj-photo.png" 
                       alt="DJ Kalz" 
                       className="w-full h-full object-cover"
                     />

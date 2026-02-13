@@ -40,7 +40,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img 
-              src="public/assets/logos/djkalu-logo.png" 
+              src="assets/logos/djkalu-logo.png" 
               alt="DJ Kalz Logo" 
               className="h-12 w-auto"
               style={{ filter: 'drop-shadow(0 0 10px rgba(255, 0, 128, 0.6))' }}

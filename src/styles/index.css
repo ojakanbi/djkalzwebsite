@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary via-neon-hot to-neon-magenta bg-clip-text text-transparent;
+  }
+  
+  .neon-text {
+    color: #840920;
+    text-shadow: 
+      0 0 10px rgba(132, 9, 32, 0.8),
+      0 0 20px rgba(132, 9, 32, 0.6),
+      0 0 30px rgba(132, 9, 32, 0.4);
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  }
+  
+  .glass-effect {
+    @apply bg-dark-card/50 backdrop-blur-md border border-primary/20;
+  }
+  
+  .neon-border {
+    border: 2px solid #840920;
+    box-shadow: 
+      0 0 10px rgba(132, 9, 32, 0.5),
+      inset 0 0 10px rgba(132, 9, 32, 0.2);
+  }
+  
+  .neon-glow {
+    box-shadow: 
+      0 0 20px rgba(132, 9, 32, 0.6),
+      0 0 40px rgba(132, 9, 32, 0.4),
+      0 0 60px rgba(132, 9, 32, 0.2);
+  }
+}

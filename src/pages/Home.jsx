@@ -111,7 +111,7 @@ const Home = () => {
 
                     
                     <img 
-                      src="public/assets/images/dj-photo.png" 
+                      src="./assets/images/dj-photo.png" 
                       alt="DJ Kalz" 
                       className="w-full h-full object-cover"
                     />

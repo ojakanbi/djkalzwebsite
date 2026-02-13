@@ -17,7 +17,7 @@ const Home = () => {
     {
       icon: Users,
       title: 'Crowd Energy',
-      description: 'Reading the room and keeping the energy high all night',
+      description: 'Reading the room and keeping the energy high all night.',
     },
   ];
 

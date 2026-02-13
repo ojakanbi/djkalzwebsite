@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/dj-kalz-website/', // Change this to your repo name
+  base: '/djkalzwebsite/', // Change this to your repo name
 })

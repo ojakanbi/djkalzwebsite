@@ -11,7 +11,7 @@ import './styles/index.css';
 
 function App() {
   return (
-    <Router basename="/dj-kalz-website">
+    <Router basename="/djkalzwebsite"> 
       <div className="min-h-screen flex flex-col bg-black">
         <Navbar />
         <main className="flex-grow">

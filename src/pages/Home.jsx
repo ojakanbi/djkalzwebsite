@@ -22,14 +22,13 @@ const Home = () => {
   ];
 
   const moments = [
-   'assets/images/dj-photo.png',
-   'assets/images/dj-photo.png',
-   'assets/images/dj-photo.png',
-   'assets/images/dj-photo.png',
-   'assets/images/dj-photo.png',
-   'assets/images/dj-photo.png',
-   'assets/images/dj-photo.png',
-   'assets/images/dj-photo.png'
+    `${import.meta.env.BASE_URL}assets/logos/djkalu-logo.png`,
+    `${import.meta.env.BASE_URL}assets/logos/djkalu-logo.png`,
+    `${import.meta.env.BASE_URL}assets/logos/djkalu-logo.png`,
+    `${import.meta.env.BASE_URL}assets/logos/djkalu-logo.png`,
+    `${import.meta.env.BASE_URL}assets/logos/djkalu-logo.png`,
+
+
   ]
 
   return (

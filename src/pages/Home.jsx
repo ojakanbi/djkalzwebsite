@@ -111,7 +111,7 @@ const Home = () => {
 
                     
                     <img 
-                      src="./assets/images/dj-photo.png" 
+                      src={`${import.meta.env.BASE_URL}assets/images/dj-photo.png`}
                       alt="DJ Kalz" 
                       className="w-full h-full object-cover"
                     />

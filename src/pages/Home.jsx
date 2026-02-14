@@ -59,7 +59,7 @@ const Home = () => {
                 className="mb-6"
               >
                 <img 
-                  src="assets/logos/djkalu-logo.png" 
+                  src={`${import.meta.env.BASE_URL}assets/logos/djkalu-logo.png`}
                   alt="DJ Kalz" 
                   className="h-52 w-auto mx-auto lg:mx-0"
                 />

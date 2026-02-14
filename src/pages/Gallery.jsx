@@ -98,12 +98,12 @@ const Gallery = () => {
             See daily updates, behind-the-scenes content, and upcoming events on Instagram
           </p>
           <a
-            href="https://instagram.com/djkalz"
+            href="https://instagram.com/dj_kalz"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-primary hover:bg-primary-dark rounded-full font-semibold transition-all hover:scale-105 inline-block neon-glow"
           >
-            Follow @djkalz
+            Follow @dj_kalz
           </a>
         </div>
       </section>

@@ -11,12 +11,7 @@ const Bio = () => {
 
   const skills = [
     'Hip-Hop & R&B',
-    'EDM & House',
-    'Top 40 & Pop',
-    'Latin & Reggaeton',
-    'Wedding Classics',
-    'Corporate Events',
-    'Live Mixing & Mashups',
+    'Afrobeats',
     'Custom Playlists',
   ];
 
@@ -35,20 +30,13 @@ const Bio = () => {
             </h1>
             <div className="space-y-4 text-gray-300 text-lg">
               <p>
-                With over a decade of experience behind the decks, DJ Kalz has become 
-                synonymous with unforgettable events and electric atmospheres. From 
-                intimate weddings to massive festivals, the mission remains the same: 
-                create moments that last forever.
+              xxxxxxxxxxxx
               </p>
               <p>
-                Specializing in a diverse range of genres including Hip-Hop, R&B, EDM, 
-                House, and Top 40, DJ Kalz reads the crowd like no other, seamlessly 
-                blending tracks to keep the energy high and the dance floor packed.
+                xxxxxxxxx
               </p>
               <p>
-                Every event is unique, and so is the approach. Whether it's a corporate 
-                gala, wedding reception, or club night, you'll get a custom-tailored 
-                experience that reflects your vision and exceeds expectations.
+              xxxxxxxx
               </p>
             </div>
           </motion.div>

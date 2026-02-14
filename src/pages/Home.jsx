@@ -70,8 +70,7 @@ const Home = () => {
               </p>
               
               <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto lg:mx-0">
-                Bringing energy, vibes, and unforgettable moments to every event. 
-                From intimate gatherings to massive celebrations.
+                Bringing energy, vibes, xxxx.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

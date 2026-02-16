@@ -1,0 +1,112 @@
+{
+    "images": [
+      {
+        "id": 1,
+        "filename": "kalu-image-1.jpeg",
+        "category": "Wedding",
+        "title": "Kal$",
+        "description": "Kal$",
+        "date": " "
+      },
+      {
+        "id": 2,
+        "filename": "kalu-image-2.png",
+        "category": "Festival",
+        "title": "Saturday Night Vibes",
+        "description": "Lagos, Nigeria",
+        "date": " "
+      },
+      {
+        "id": 3,
+        "filename": "kalu-image-3.png",
+        "category": "Club",
+        "title": "Kal$",
+        "description": "College night",
+        "date": " "
+      },
+      {
+        "id": 4,
+        "filename": "kalu-image-4.png",
+        "category": "Club",
+        "title": "Kal$",
+        "description": "New york",
+        "date": " "
+      },
+      {
+        "id": 5,
+        "filename": "kalu-image-5.png",
+        "category": "Club",
+        "title": "Friday Night",
+        "description": "Lagos, Nigeria",
+        "date": " "
+      },
+        {
+            "id": 6,
+            "filename": "dj-photo.png",
+            "category": "Club",
+            "title": "Kal$",
+            "description": "Kal$",
+            "date": " "
+        },
+        {
+            "id": 7,
+            "filename": "kalu-image-6.png",
+            "category": "Festival",
+            "title": "Gabzy",
+            "description": "Lagos, Nigeria",
+            "date": " "
+        },
+        {
+            "id": 8,
+            "filename": "kalu-image-7.png",
+            "category": "Festival",
+            "title": "Kal$",
+            "description": "Lagos, Nigeria",
+            "date": " "
+        }
+    ],
+    "videos": [
+      {
+        "id": 1,
+        "filename": "kalu-video-1.MP4",
+        "category": "All",
+        "title": " Cartoon Art",
+        "description": "Art"
+      },
+      {
+        "id": 2,
+        "filename": "kalu-video-2.mov",
+        "category": "Club",
+        "title": "Obi's House",
+        "description": "Lagos, Nigeria"
+      },
+        {
+            "id": 3,
+            "filename": "kalu-video-3.mov",
+            "category": "Club",
+            "title": "Obi's House",
+            "description": "Lagos, Nigeria"
+        },
+        {
+            "id": 4,
+            "filename": "kalu-video-4.mov",
+            "category": "Festival",
+            "title": "Gabzy",
+            "description": " "
+        },
+        {
+            "id": 5,
+            "filename": "kalu-video-5.mov",
+            "category": "Club",
+            "title": "Obi's House",
+            "description": "Lagos, Nigeria"
+        },
+        {
+            "id": 6,
+            "filename": "kalu-video-7.mov",
+            "category": "Festival",
+            "title": "Kal$",
+            "description": " "
+        }
+    ]
+  }

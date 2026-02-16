@@ -2,38 +2,40 @@ import { motion } from 'framer-motion';
 import { Calendar, MapPin, Clock, ExternalLink } from 'lucide-react';
 
 const Events = () => {
-  const upcomingEvents = [
-    {
-      id: 1,
-      title: 'PurET x DJ Kalz',
-      date: 'March x, 2026',
-      time: '9:00 PM - 2:00 AM',
-      venue: 'xxx',
-      city: 'State College, PA',
-      type: 'Club Night',
-      ticketUrl: '#',
-    },
-    {
-      id: 2,
-      title: 'AfroTech',
-      date: 'March x, 2026',
-      time: 'xx',
-      venue: 'Convention Center',
-      city: 'San Francisco, CA',
-      type: 'Corporate Event',
-      ticketUrl: '#',
-    },
-    {
-      id: 3,
-      title: 'xx',
-      date: 'xx',
-      time: '2:00 PM - 10:00 PM',
-      venue: 'xxx',
-      city: 'xx',
-      type: 'xx',
-      ticketUrl: '#',
-    },
-  ];
+  // const upcomingEvents = [
+  //   {
+  //     id: 1,
+  //     title: 'PurET x DJ Kalz',
+  //     date: 'March x, 2026',
+  //     time: '9:00 PM - 2:00 AM',
+  //     venue: 'xxx',
+  //     city: 'State College, PA',
+  //     type: 'Club Night',
+  //     ticketUrl: '#',
+  //   },
+  //   {
+  //     id: 2,
+  //     title: 'AfroTech',
+  //     date: 'March x, 2026',
+  //     time: 'xx',
+  //     venue: 'Convention Center',
+  //     city: 'San Francisco, CA',
+  //     type: 'Corporate Event',
+  //     ticketUrl: '#',
+  //   },
+  //   {
+  //     id: 3,
+  //     title: 'xx',
+  //     date: 'xx',
+  //     time: '2:00 PM - 10:00 PM',
+  //     venue: 'xxx',
+  //     city: 'xx',
+  //     type: 'xx',
+  //     ticketUrl: '#',
+  //   },
+  // ];
+  const upcomingEvents = []
+
 
   return (
     <div className="pt-20">

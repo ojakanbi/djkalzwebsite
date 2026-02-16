@@ -12,7 +12,7 @@ const Home = () => {
     {
       icon: Calendar,
       title: 'Event Specialist',
-      description: 'Weddings, corporate events, clubs, and private parties',
+      description: 'Clubs, corporate events, weddings, and private parties',
     },
     {
       icon: Users,
@@ -22,14 +22,16 @@ const Home = () => {
   ];
 
   const moments = [
-    `${import.meta.env.BASE_URL}assets/logos/djkalu-logo.png`,
-    `${import.meta.env.BASE_URL}assets/logos/djkalu-logo.png`,
-    `${import.meta.env.BASE_URL}assets/logos/djkalu-logo.png`,
-    `${import.meta.env.BASE_URL}assets/logos/djkalu-logo.png`,
-    `${import.meta.env.BASE_URL}assets/logos/djkalu-logo.png`,
+    { type: 'image', src: `${import.meta.env.BASE_URL}assets/images/kalu-image-2.png` },
+    { type: 'video', src: `${import.meta.env.BASE_URL}assets/videos/kalu-video-5.mov` },
+    { type: 'image', src: `${import.meta.env.BASE_URL}assets/images/kalu-image-3.png` },
+    { type: 'video', src: `${import.meta.env.BASE_URL}assets/videos/kalu-video-4.mov` },
+    { type: 'image', src: `${import.meta.env.BASE_URL}assets/images/kalu-image-4.png` },
+    { type: 'video', src: `${import.meta.env.BASE_URL}assets/videos/kalu-video-6.mov` },
+    { type: 'image', src: `${import.meta.env.BASE_URL}assets/images/kalu-image-5.png` },
+    { type: 'video', src: `${import.meta.env.BASE_URL}assets/videos/kalu-video-7.mov` },
 
-
-  ]
+  ];
 
   return (
     <div className="pt-20">
@@ -57,22 +59,20 @@ const Home = () => {
                 transition={{ duration: 0.5 }}
                 className="mb-6"
               >
-                <img 
+                <img
                   src={`${import.meta.env.BASE_URL}assets/logos/djkalu-logo.png`}
-                  alt="DJ Kalz" 
+                  alt="DJ Kalz"
                   className="h-52 w-auto mx-auto lg:mx-0"
                 />
               </motion.div>
-            
-              
+
+
               <p className="text-xl md:text-2xl text-gray-300 mb-4">
-                Open Format DJ | Producer 
+                INTERNATIONAL DJ - PRODUCER
               </p>
-              
+
               <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto lg:mx-0">
-                Bringing energy, vibes, xxxx.
-              </p>
-              
+              INTRODUCING THE MASTER OF TRANSITION AND VIBE CURATOR DRIVEN BY GLOBAL SOUNDS AND UNMATCHED ENERGY. </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link
                   to="/contact"
@@ -102,18 +102,18 @@ const Home = () => {
                 {/* Neon frame effect */}
                 <div className="absolute inset-0 rounded-3xl neon-border animate-pulse"></div>
                 <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-primary/30 via-neon-magenta/20 to-transparent blur-2xl"></div>
-                
+
                 {/* Photo container - PLACE YOUR DJ PHOTO HERE */}
                 <div className="relative rounded-3xl overflow-hidden neon-glow">
-                  
 
-                    
-                    <img 
-                      src={`${import.meta.env.BASE_URL}assets/images/dj-photo.png`}
-                      alt="DJ Kalz" 
-                      className="w-full h-full object-cover"
-                    />
-                 
+
+
+                  <img
+                    src={`${import.meta.env.BASE_URL}assets/images/dj-photo.png`}
+                    alt="DJ Kalz"
+                    className="w-full h-full object-cover"
+                  />
+
                 </div>
 
                 {/* Floating accent dots */}
@@ -165,28 +165,38 @@ const Home = () => {
       <section className="section-container bg-dark-card">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-            Recent <span className="neon-text">Moments</span>
+            Best <span className="neon-text">Moments</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Check out some highlights from recent events and performances
+            Check out some highlights from best events and performances
           </p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {moments.map((item) => (
-            <div
-              key={item}
-              className="aspect-square glass-effect rounded-lg hover:neon-border hover:scale-105 transition-all cursor-pointer flex items-center justify-center group"
-            >
-              {/* <Music className="text-gray-700 group-hover:text-primary transition-colors" size={48} /> */}
-              <img 
-                src={item}
-                alt="DJ Moment" 
-                className="w-full h-full object-cover rounded-lg"
-              />
-            </div>
-          ))}
-        </div>
+  {moments.map((item, index) => (
+    <div
+      key={index}
+      className="aspect-square glass-effect rounded-lg hover:neon-border hover:scale-105 transition-all cursor-pointer flex items-center justify-center group"
+    >
+      {item.type === 'image' ? (
+        <img
+          src={item.src}
+          alt="DJ Moment"
+          className="w-full h-full object-cover rounded-lg"
+        />
+      ) : (
+        <video
+          src={item.src}
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover rounded-lg"
+        />
+      )}
+    </div>
+  ))}
+</div>
 
         <div className="text-center mt-12">
           <Link

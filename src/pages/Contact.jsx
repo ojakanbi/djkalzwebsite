@@ -40,17 +40,19 @@ const Contact = () => {
     }, 3000);
   };
 
+  
+
   const contactInfo = [
     {
       icon: Mail,
       label: 'Email',
-      value: 'bookings@djkalz.com',
-      link: 'mailto:bookings@djkalz.com',
+      value: 'djkalzbookings@Gmail.com',
+      link: 'mailto:djkalzbookings@gmail.com',
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: 'xxx xxx xxx ',
+      value: '+',
       link: 'tel:+',
     },
     {

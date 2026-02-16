@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
-import { Award, Music, Headphones, Users } from 'lucide-react';
+import { Globe, Music, Headphones, Users } from 'lucide-react';
 
 const Bio = () => {
   const stats = [
-    { icon: Music, value: '500+', label: 'Events Performed' },
-    { icon: Users, value: '50K+', label: 'Happy Guests' },
-    { icon: Headphones, value: '10+', label: 'Years Experience' },
-    { icon: Award, value: '25+', label: 'Awards Won' },
+    { icon: Music, value: '1000+', label: 'Events Performed' },
+    { icon: Users, value: '100K+', label: 'Attendees' },
+    { icon: Headphones, value: '4+', label: 'Years Experience' },
+    { icon: Globe, value: '15+', label: 'Cities' },
   ];
 
   const skills = [
@@ -26,17 +26,17 @@ const Bio = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-6">
-              Meet <span className="neon-text">DJ Kalz</span>
+              Meet <span className="neon-text">KAL$</span>
             </h1>
             <div className="space-y-4 text-gray-300 text-lg">
               <p>
-              xxxxxxxxxxxx
+                DJ Kal$ is a Nigerian-American open format DJ from Port Harcourt, Nigeria, blending global sounds from afrobeats to hip-hop, pop and more.
               </p>
               <p>
-                xxxxxxxxx
+                Raised in PH City and inspired by diverse cultures, he brings a unique energy to every performance. Starting his journey at Penn State, DJ Kal$ quickly gained a reputation for his versatility, playing everything from house parties to festival main stages.
               </p>
               <p>
-              xxxxxxxx
+                With mentorship from top DJs and influences like DJ Ov, DJ Tunez, and Juls, he’s now a sought-after talent in the Afro-Caribbean and rap music scenes, known for electrifying crowds and seamless genre fusion.
               </p>
             </div>
           </motion.div>
@@ -47,9 +47,14 @@ const Bio = () => {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="aspect-square neon-border rounded-3xl overflow-hidden">
+            <div className="aspect-square neon-border rounded-3xl overflow-hidden neon-glow">
               <div className="w-full h-full bg-gradient-to-br from-primary/20 to-neon-magenta/20 flex items-center justify-center">
-                <Music className="text-gray-700" size={120} />
+                <img
+                  src="assets/images/kalu-image-1.jpeg"
+                  alt="DJ Kalz image 1"
+                  className="w-auto mx-auto lg:mx-0 neon-glow"
+                  
+                />
               </div>
             </div>
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/30 rounded-full blur-3xl"></div>

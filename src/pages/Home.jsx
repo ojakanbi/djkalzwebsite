@@ -215,15 +215,66 @@ const Home = () => {
             Ready to Make Your Event <span className="neon-text">Unforgettable?</span>
           </h2>
           <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
-            Let's create an amazing experience together. Get in touch to discuss your event.
-          </p>
-          <Link
+  DJ Kal$ has built an impressive portfolio, performing
+  for artists like <span className="text-primary">Glorilla</span>, <span className="text-primary">Gabzy</span>, <span className="text-primary">Kyle Richh</span>, <span className="text-primary">Tyler ICU</span>,
+  <span className="text-primary">Gunna</span>, and <span className="text-primary">Wiz Khalifa’s Taylor Gang</span>. He’s supported
+  <span className="text-primary"> Ayra Starr</span>, <span className="text-primary">Odumodublvck</span>, and <span className="text-primary">Davido</span> at venues such
+  as the House of Blues and Encore Houston.
+</p>
+<Link
             to="/contact"
-            className="px-10 py-4 bg-primary hover:bg-primary-dark rounded-full font-semibold text-lg transition-all hover:scale-105 inline-flex items-center neon-glow"
+            className="px-8 py-3 bg-primary hover:bg-primary-dark rounded-full font-semibold transition-all hover:scale-105 inline-flex items-center neon-glow mb-8"
           >
             Book DJ Kalz
-            <Calendar className="ml-2" size={24} />
+            <Calendar className="ml-2" size={20} />
           </Link>
+
+          {/* Auto-scrolling Flyer Carousel */}
+          <div className="mt-8 overflow-hidden">
+            <h3 className="text-xl font-bold mb-4 text-gray-300">Notable Events</h3>
+            <div className="relative">
+              {/* Gradient overlays for fade effect */}
+              <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-dark-card to-transparent z-10 pointer-events-none"></div>
+              <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-dark-card to-transparent z-10 pointer-events-none"></div>
+              
+              {/* Scrolling container */}
+              <div className="flex gap-6 animate-scroll-left">
+                {/* First set of flyers */}
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/1.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/2.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/3.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/4.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/5.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/6.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/7.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/8.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/9.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/10.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/11.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/12.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/13.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/14.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+
+                
+                {/* Duplicate set for seamless loop */}
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/1.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/2.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/3.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/4.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/5.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/6.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/7.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/8.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/9.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/10.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/11.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/12.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/13.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+                <img src={`${import.meta.env.BASE_URL}assets/flyers/14.png`} alt="Event Flyer" className="h-64 w-auto rounded-lg neon-border flex-shrink-0" />
+
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
